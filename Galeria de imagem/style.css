@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+h1{ 
+    margin: 0;
+}
+/* Esse é o style do cabeçalho */
+header { 
+    background-color: rgb(159, 99, 228);
+    display: flex;
+    justify-content: space-between; /*Só funciona com display flex */
+    padding: 10px;
+}
+#box-categorias button {
+    background-color: coral;
+}
+#box-ordenar button {
+    background-color: rgb(47, 9, 216);
+}
+
+
+#box-categorias button, #box-ordenar button {
+    Border: 0;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
