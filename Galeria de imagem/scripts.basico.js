@@ -93,14 +93,14 @@ document.addEventListener('DOMContentLoaded', function(){
         profissao: "Programador",
     }
     
-    //console.log(pessoa["nome"])
+    console.log(pessoa["nome"]  +","+ pessoa["idade"] +","+ pessoa["profissao"])
 
     //------------//------------//--------------//-------
 
     const numeros = [ "A", "B", "C", "D"]
 
     numeros.forEach( num => {
-        console.log (num )
+        //console.log (num )
 
     })
 })  
